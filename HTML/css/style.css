@@ -1,0 +1,139 @@
+*{
+    color: black;
+    font-size: 25px;
+    background-color: rgb(237, 164, 80);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.hstyle {
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    background: linear-gradient(to bottom, blue 0%, white 100%);
+}
+
+.textstyle1{
+    font-size: 30px;
+}
+
+.textstyle2{
+    font-family: monospace;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.photo{
+    width:300;
+    height:250px;
+    margin:2mm;
+    border-radius:20px;
+}
+
+.asidestyle{
+    text-align: right;
+}
+
+.footerstyle{
+    background-color: rgb(237, 164, 80);
+    font-size: smaller;
+    position: absolute;
+	bottom:0;
+	width:100%;
+    text-align: center;
+}
+
+.nav{
+    height: 50px;
+    background-color: #333;
+    text-align: center;
+    line-height: 50px;
+    font-size: 0;
+}
+
+.nav-item{
+    display: inline-block;
+}
+
+.nav-item a{
+    padding: 0 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: color .3s;
+}
+.nav-item a:hover{
+    color: #0086f3;
+}
+
+.box1{
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    margin: 20px 30px 30px 40px;
+    border-radius:20px;
+    float: right;
+    position: fixed;
+    top: 150px;
+    z-index: 99999;
+    right: -5px;
+}
+
+.box1-item{
+    color: red;
+}
+
+.box2{
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    margin: 20px 30px 30px 40px;
+    float: right;
+    position: fixed;
+    top: 350px;
+    z-index: 99999;
+    right: -5px;
+}
+
+.box2-item{
+    color: red;
+}
+
+.box-in-box1{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.box-in-box2{
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+.box-text{
+    text-align: center;
+}
+
+.photo2{
+    width: 150px;
+    height:360px;
+    margin:0;
+    border-radius:5px;
+}
+.btn{
+   padding: auto;
+   background-color: tomato;
+   border: black;
+   border-radius: 6px;
+   cursor: pointer;
+   transition: .3s; 
+   left: 0;
+   bottom: 0;
+}
+.form{
+    color: green;
+}

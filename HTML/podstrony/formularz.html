@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularz zamówienia</h1>
+    <p>
+        <form class="form">
+        <div>
+        <fieldset>
+            <legend>Dane zamówienia</legend>
+            <input type="text" name="Imię">Imię<br>
+            <input type="text" name="Nazwisko">Nazwisko
+            
+            <p>Podaj swoją płeć:</p>
+            <input type="radio" name="Płeć" value="Kobieta">Kobieta
+            <input type="radio" name="Płeć" value="Mężczyzna">Mężczyzna
+            
+            <p>Wiek</p>
+            <input type="number" name="Wiek" value="Wiek">
+            
+            <p>Miasto:</p>
+            <input type="text" name="Miasto" value="Nazwa">
+
+            <p>Nazwa ulicy:</p>
+            <input type="text" name="Ulica" value="Ulica">
+
+            <p>Numer mieszkania:</p>
+            <input type="text" minlength="9" name="Numer" value="Numer">
+            
+            <p>Koda pocztowy:</p>
+            <input name="kod" max="6" value="kod">
+            
+            <p>Adres email:</p>
+            <input name="mail" value="email">
+
+            <p>Metoda platnosci:</p>
+            <input type="radio" name="Przelew" value="Przelew">Przelew
+            <input type="radio" name="Karta" value="Karta płatnicza">Karta płatnicza
+
+            <p>Metoda dostawy</p>
+            <select name="Metoda">
+                <option selected>Paczkomat</option>
+                <option>Kurier</option>
+                <option>Odbiór osobity</option>
+            </select>
+            <br><br><br>
+            <input type ="checkbox" name="Faktura" value="faktura">Faktura
+        </fieldset>
+        <fieldset>
+            <legend>Komentarz do zamówienia</legend>
+            <textarea name="Komentarz" cols="50" rows="10">Podaj swoje uwagi.</textarea>
+            <br><br><br>
+            <input type="submit" value="Złóż zamówienie">
+        </div>
+        </fieldset>
+        </form>
+    </p>
+</body>
+</html>
